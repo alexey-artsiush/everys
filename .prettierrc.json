@@ -1,0 +1,6 @@
+{
+  "printWidth": 120,
+  "prettier.singleQuote": true,
+  "trailingComma": "es5",
+  "import/{}": "never"
+}

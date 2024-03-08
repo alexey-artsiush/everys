@@ -1,0 +1,13 @@
+.wrapper {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 30px;
+  min-height: calc(100dvh - 76px);
+  padding-right: 30px;
+
+  @media (max-width: 400px) {
+    font-size: 15px;
+  }
+}

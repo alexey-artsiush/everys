@@ -1,0 +1,42 @@
+.searchContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 20px auto;
+
+  .searchWrapper {
+    display: flex;
+
+    .inputLabel {
+      display: flex;
+      flex-direction: column;
+
+      .input {
+        padding: 7px;
+        background-color: var(--grey-light);
+        border: 1px solid var(--grey);
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+
+      .count {
+        width: 55px;
+        text-align: center;
+      }
+
+      .label {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .button {
+    padding: 7px 23px;
+    background-color: var(--purple);
+    border: none;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

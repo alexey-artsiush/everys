@@ -1,0 +1,8 @@
+@import "reset";
+@import "variables/global";
+
+body {
+  font-family: var(--font-family-main);
+  min-height: 100dvh;
+  background-color: var(--background);
+}

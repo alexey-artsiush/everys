@@ -1,0 +1,35 @@
+.table {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tableHeader > * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 5%;
+  font-weight: 600;
+}
+
+.tableHeader {
+  display: flex;
+
+  .code {
+    width: 5%;
+  }
+
+  .title, .manufacturer, .description {
+   width: 22%;
+  }
+
+  .price, .stock {
+    width: calc((100% - 5% - (3 * 22%)) / 3);
+  }
+}
+
+.tableLine {
+  border-top: 2px solid var(--grey);
+  width: 100%;
+  margin: 10px 0;
+}

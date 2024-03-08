@@ -1,0 +1,27 @@
+.productCard {
+  display: flex;
+  margin: 20px 0;
+  max-width: 100%;
+}
+
+.productCard > * {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 5%;
+}
+
+.code {
+  width: 5%;
+}
+
+.title,
+.manufacturer,
+.description {
+  width: 22%;
+}
+
+.price,
+.stock {
+  width: calc((100% - 5% - (3 * 22%)) / 3);
+}
