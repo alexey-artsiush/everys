@@ -9,16 +9,41 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin-right: 5%;
+
+  @media (max-width: 990px) {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: inherit;
+    margin-right: 2%;
+  }
+}
+
+.productCardMobile {
+  padding: 10px;
+  line-height: 26px;
+
+}
+
+.productCardMobile:not(:last-child) {
+  border-bottom: 2px solid var(--grey);
 }
 
 .code {
   width: 5%;
+
+  @media (max-width: 990px) {
+    width: 50px;
+  }
 }
 
 .title,
 .manufacturer,
 .description {
   width: 22%;
+}
+
+.title {
+  font-weight: 700;
 }
 
 .price,

@@ -2,7 +2,7 @@ import React from "react";
 import { useAppSelector } from "@/app/providers/storeProvider";
 import { getProducts } from "@/entities/Product/model/selectors/getProducts";
 import ProductItem from "@/entities/Product/ui/ProductItem/ProductItem";
-import classes from "./ProductItem.module.scss";
+import classes from "./ProductList.module.scss";
 
 const ProductList: React.FC = () => {
   const { products, isLoading, isError } = useAppSelector(getProducts);

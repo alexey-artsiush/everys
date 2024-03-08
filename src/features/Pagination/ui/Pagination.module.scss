@@ -5,6 +5,23 @@
   justify-content: space-between;
   align-items: center;
 
+  @media (max-width: 990px) {
+    position: absolute;
+    bottom: 28px;
+    flex-wrap: wrap;
+    background-color: var(--grey);
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+  .buttons {
+    @media (max-width: 990px) {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 
   .button {
     padding: 7px 23px;

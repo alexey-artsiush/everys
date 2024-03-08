@@ -2,10 +2,18 @@
   padding: 10px 30px;
   background-color: var(--grey);
 
+  @media (max-width: 990px) {
+    background-color: var(--grey-light);
+  }
+
   .tagline {
     max-width: 1920px;
     font-size: 16px;
     font-weight: 400;
     text-align: end;
+
+    @media (max-width: 990px) {
+      text-align: center;
+    }
   }
 }

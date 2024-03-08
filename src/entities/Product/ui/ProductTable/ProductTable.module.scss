@@ -12,6 +12,13 @@
   font-weight: 600;
 }
 
+.tableHeaderMobile {
+  background-color: var(--grey);
+  padding: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+
 .tableHeader {
   display: flex;
 
@@ -32,4 +39,8 @@
   border-top: 2px solid var(--grey);
   width: 100%;
   margin: 10px 0;
+
+  @media (max-width: 990px) {
+    display: none;
+  }
 }

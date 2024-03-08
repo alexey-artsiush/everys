@@ -4,13 +4,29 @@
   justify-content: space-between;
   align-items: end;
   margin: 20px auto;
+  border-radius: 5px;
+
+  @media (max-width: 990px) {
+    background-color: var(--grey);
+    padding: 15px 4px;
+    height: 140px;
+    margin: 0 auto 10px;
+  }
 
   .searchWrapper {
     display: flex;
 
+    @media (max-width: 990px) {
+     flex-direction: column;
+    }
+
     .inputLabel {
       display: flex;
       flex-direction: column;
+
+      @media (max-width: 990px) {
+        margin-bottom: 7px;
+      }
 
       .input {
         padding: 7px;

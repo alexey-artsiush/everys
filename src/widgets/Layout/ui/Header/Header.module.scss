@@ -2,10 +2,19 @@
   padding: 10px 30px;
   background-color: var(--grey);
 
+  @media (max-width: 990px) {
+    background-color: var(--grey-light);
+  }
+
   .logo {
     max-width: 1920px;
     font-size: 16px;
     font-weight: 400;
     margin: auto;
+
+    @media (max-width: 990px) {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
